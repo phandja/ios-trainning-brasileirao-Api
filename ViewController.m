@@ -80,24 +80,14 @@
     NSString *roundText = [NSString stringWithFormat:@"%@", matchs.round];
     cell.roundLabel.text = roundText;
     
-    cell.homeImage.image = nil;
-    cell.awayImage.image = nil;
+    //cell.homeImage.image = nil;
+    //cell.awayImage.image = nil;
+    
+    [cell.homeImage sd_setImageWithURL:[NSURL URLWithString:matchs.home_team.logo_url]];
+    [cell.awayImage sd_setImageWithURL:[NSURL URLWithString:matchs.away_team.logo_url]];
     
     NSLog(@"Teste Table View Cell meio ");
     
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND,0), ^{
-        
-        dispatch_async( dispatch_get_main_queue(), ^{
-            
-            [cell.imageView sd_setImageWithURL:[NSURL URLWithString:matchs.home_team_logo_url.logo_url]];
-            [cell.imageView sd_setImageWithURL:[NSURL URLWithString:matchs.away_team_logo_url.logo_url]];
-            [cell setNeedsDisplay];
-            
-            NSLog(@"Teste Images");
-            
-            });
-    
-        });
     return cell;
 }
 

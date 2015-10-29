@@ -9,16 +9,16 @@
         <scene sceneID="Yo5-T6-5jE">
             <objects>
                 <tableViewController id="MzT-Ab-QC6" customClass="ViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="206" sectionHeaderHeight="28" sectionFooterHeight="28" id="0JO-Tr-pAP">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="188" sectionHeaderHeight="28" sectionFooterHeight="28" id="0JO-Tr-pAP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatchIdentifier" rowHeight="206" id="53Z-TB-jbx" customClass="TitleDC">
-                                <rect key="frame" x="0.0" y="92" width="600" height="206"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatchIdentifier" rowHeight="188" id="53Z-TB-jbx" customClass="TitleDC">
+                                <rect key="frame" x="0.0" y="92" width="600" height="188"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="53Z-TB-jbx" id="tIP-tU-lRC">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="205"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="187"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZLI-KX-jAu">
@@ -71,7 +71,7 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rodada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUw-Q8-z4g">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rodada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUw-Q8-z4g">
                                             <rect key="frame" x="20" y="94" width="59" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -108,6 +108,7 @@
                                     <outlet property="hometeamLabel" destination="7xK-Bf-8w4" id="zfl-ew-bfv"/>
                                     <outlet property="hometeamscoreLabel" destination="1Wy-cY-Lv6" id="QGx-Qs-MsR"/>
                                     <outlet property="placeLabel" destination="Zgs-r9-IQ9" id="tKj-Re-ESr"/>
+                                    <outlet property="roundLabel" destination="zUw-Q8-z4g" id="8Z3-dk-haR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
