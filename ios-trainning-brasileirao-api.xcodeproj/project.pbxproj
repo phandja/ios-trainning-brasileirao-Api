@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B28352A1BE23DDA00DA5F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2835291BE23DDA00DA5F46 /* main.m */; };
-		3B28352D1BE23DDA00DA5F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28352C1BE23DDA00DA5F46 /* AppDelegate.m */; };
-		3B2835301BE23DDA00DA5F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28352F1BE23DDA00DA5F46 /* ViewController.m */; };
-		3B2835331BE23DDA00DA5F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2835311BE23DDA00DA5F46 /* Main.storyboard */; };
-		3B2835351BE23DDA00DA5F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2835341BE23DDA00DA5F46 /* Assets.xcassets */; };
-		3B2835381BE23DDA00DA5F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2835361BE23DDA00DA5F46 /* LaunchScreen.storyboard */; };
 		3B2835431BE23DDB00DA5F46 /* ios_trainning_brasileirao_apiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2835421BE23DDB00DA5F46 /* ios_trainning_brasileirao_apiTests.m */; };
 		3B28354E1BE23DDB00DA5F46 /* ios_trainning_brasileirao_apiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28354D1BE23DDB00DA5F46 /* ios_trainning_brasileirao_apiUITests.m */; };
+		3B28356A1BE23E2500DA5F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28355D1BE23E2500DA5F46 /* AppDelegate.m */; };
+		3B28356C1BE23E2500DA5F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2835621BE23E2500DA5F46 /* Assets.xcassets */; };
+		3B28356D1BE23E2500DA5F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2835631BE23E2500DA5F46 /* LaunchScreen.storyboard */; };
+		3B28356E1BE23E2500DA5F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2835651BE23E2500DA5F46 /* Main.storyboard */; };
+		3B2835701BE23E2500DA5F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2835691BE23E2500DA5F46 /* main.m */; };
+		3B2835791BE2426500DA5F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2835781BE2426500DA5F46 /* ViewController.m */; };
+		3B28357D1BE24D6600DA5F46 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28357C1BE24D6600DA5F46 /* Match.m */; };
+		3B2835801BE24FFD00DA5F46 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28357F1BE24FFD00DA5F46 /* Team.m */; };
+		3B2835841BE255C100DA5F46 /* TitleDC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2835831BE255C100DA5F46 /* TitleDC.m */; };
+		7DC2538442B01ACFE7BB6C0C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5725F02F33CC1D1D8E4F6FE /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +40,30 @@
 
 /* Begin PBXFileReference section */
 		3B2835251BE23DDA00DA5F46 /* ios-trainning-brasileirao-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-trainning-brasileirao-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B2835291BE23DDA00DA5F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B28352B1BE23DDA00DA5F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3B28352C1BE23DDA00DA5F46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B28352E1BE23DDA00DA5F46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B28352F1BE23DDA00DA5F46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B2835321BE23DDA00DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B2835341BE23DDA00DA5F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B2835371BE23DDA00DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3B2835391BE23DDA00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B28353E1BE23DDB00DA5F46 /* ios-trainning-brasileirao-apiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-trainning-brasileirao-apiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2835421BE23DDB00DA5F46 /* ios_trainning_brasileirao_apiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_trainning_brasileirao_apiTests.m; sourceTree = "<group>"; };
 		3B2835441BE23DDB00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B2835491BE23DDB00DA5F46 /* ios-trainning-brasileirao-apiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-trainning-brasileirao-apiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B28354D1BE23DDB00DA5F46 /* ios_trainning_brasileirao_apiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_trainning_brasileirao_apiUITests.m; sourceTree = "<group>"; };
 		3B28354F1BE23DDB00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B28355C1BE23E2500DA5F46 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B28355D1BE23E2500DA5F46 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B2835621BE23E2500DA5F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2835641BE23E2500DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2835661BE23E2500DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2835681BE23E2500DA5F46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2835691BE23E2500DA5F46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B2835771BE2426500DA5F46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		3B2835781BE2426500DA5F46 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		3B28357B1BE24D6600DA5F46 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		3B28357C1BE24D6600DA5F46 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		3B28357E1BE24FFD00DA5F46 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		3B28357F1BE24FFD00DA5F46 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		3B2835821BE255C100DA5F46 /* TitleDC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleDC.h; sourceTree = "<group>"; };
+		3B2835831BE255C100DA5F46 /* TitleDC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleDC.m; sourceTree = "<group>"; };
+		5D63ECB4C69701C46F03D1B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		97C586FB503ADF5E086C4551 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F5725F02F33CC1D1D8E4F6FE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC2538442B01ACFE7BB6C0C /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				3B2835411BE23DDB00DA5F46 /* ios-trainning-brasileirao-apiTests */,
 				3B28354C1BE23DDB00DA5F46 /* ios-trainning-brasileirao-apiUITests */,
 				3B2835261BE23DDA00DA5F46 /* Products */,
+				8DB9192CF3216FBBE1DFF4F7 /* Pods */,
+				790C96CEA854889DADAE90C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,25 +117,14 @@
 		3B2835271BE23DDA00DA5F46 /* ios-trainning-brasileirao-api */ = {
 			isa = PBXGroup;
 			children = (
-				3B28352B1BE23DDA00DA5F46 /* AppDelegate.h */,
-				3B28352C1BE23DDA00DA5F46 /* AppDelegate.m */,
-				3B28352E1BE23DDA00DA5F46 /* ViewController.h */,
-				3B28352F1BE23DDA00DA5F46 /* ViewController.m */,
-				3B2835311BE23DDA00DA5F46 /* Main.storyboard */,
-				3B2835341BE23DDA00DA5F46 /* Assets.xcassets */,
-				3B2835361BE23DDA00DA5F46 /* LaunchScreen.storyboard */,
-				3B2835391BE23DDA00DA5F46 /* Info.plist */,
-				3B2835281BE23DDA00DA5F46 /* Supporting Files */,
+				3B2835811BE2551A00DA5F46 /* View */,
+				3B28357A1BE24C5D00DA5F46 /* Model */,
+				3B28355B1BE23E2500DA5F46 /* AppDelegate */,
+				3B28355E1BE23E2500DA5F46 /* Controller */,
+				3B2835611BE23E2500DA5F46 /* Ressources */,
+				3B2835671BE23E2500DA5F46 /* Supporting Files */,
 			);
 			path = "ios-trainning-brasileirao-api";
-			sourceTree = "<group>";
-		};
-		3B2835281BE23DDA00DA5F46 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B2835291BE23DDA00DA5F46 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3B2835411BE23DDB00DA5F46 /* ios-trainning-brasileirao-apiTests */ = {
@@ -140,6 +145,80 @@
 			path = "ios-trainning-brasileirao-apiUITests";
 			sourceTree = "<group>";
 		};
+		3B28355B1BE23E2500DA5F46 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B28355C1BE23E2500DA5F46 /* AppDelegate.h */,
+				3B28355D1BE23E2500DA5F46 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3B28355E1BE23E2500DA5F46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B2835771BE2426500DA5F46 /* ViewController.h */,
+				3B2835781BE2426500DA5F46 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B2835611BE23E2500DA5F46 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3B2835621BE23E2500DA5F46 /* Assets.xcassets */,
+				3B2835631BE23E2500DA5F46 /* LaunchScreen.storyboard */,
+				3B2835651BE23E2500DA5F46 /* Main.storyboard */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		3B2835671BE23E2500DA5F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2835681BE23E2500DA5F46 /* Info.plist */,
+				3B2835691BE23E2500DA5F46 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B28357A1BE24C5D00DA5F46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B28357B1BE24D6600DA5F46 /* Match.h */,
+				3B28357C1BE24D6600DA5F46 /* Match.m */,
+				3B28357E1BE24FFD00DA5F46 /* Team.h */,
+				3B28357F1BE24FFD00DA5F46 /* Team.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B2835811BE2551A00DA5F46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B2835821BE255C100DA5F46 /* TitleDC.h */,
+				3B2835831BE255C100DA5F46 /* TitleDC.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		790C96CEA854889DADAE90C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5725F02F33CC1D1D8E4F6FE /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DB9192CF3216FBBE1DFF4F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D63ECB4C69701C46F03D1B1 /* Pods.debug.xcconfig */,
+				97C586FB503ADF5E086C4551 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B2835521BE23DDB00DA5F46 /* Build configuration list for PBXNativeTarget "ios-trainning-brasileirao-api" */;
 			buildPhases = (
+				6BC5AC60BCDA46B6120D9B75 /* Check Pods Manifest.lock */,
 				3B2835211BE23DDA00DA5F46 /* Sources */,
 				3B2835221BE23DDA00DA5F46 /* Frameworks */,
 				3B2835231BE23DDA00DA5F46 /* Resources */,
+				60B5F401C73EA974B3755492 /* Embed Pods Frameworks */,
+				2FA508C07215379C738799E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +325,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2835381BE23DDA00DA5F46 /* LaunchScreen.storyboard in Resources */,
-				3B2835351BE23DDA00DA5F46 /* Assets.xcassets in Resources */,
-				3B2835331BE23DDA00DA5F46 /* Main.storyboard in Resources */,
+				3B28356C1BE23E2500DA5F46 /* Assets.xcassets in Resources */,
+				3B28356E1BE23E2500DA5F46 /* Main.storyboard in Resources */,
+				3B28356D1BE23E2500DA5F46 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +347,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FA508C07215379C738799E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B5F401C73EA974B3755492 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC5AC60BCDA46B6120D9B75 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B2835211BE23DDA00DA5F46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2835301BE23DDA00DA5F46 /* ViewController.m in Sources */,
-				3B28352D1BE23DDA00DA5F46 /* AppDelegate.m in Sources */,
-				3B28352A1BE23DDA00DA5F46 /* main.m in Sources */,
+				3B28356A1BE23E2500DA5F46 /* AppDelegate.m in Sources */,
+				3B2835791BE2426500DA5F46 /* ViewController.m in Sources */,
+				3B28357D1BE24D6600DA5F46 /* Match.m in Sources */,
+				3B2835841BE255C100DA5F46 /* TitleDC.m in Sources */,
+				3B2835801BE24FFD00DA5F46 /* Team.m in Sources */,
+				3B2835701BE23E2500DA5F46 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +441,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B2835311BE23DDA00DA5F46 /* Main.storyboard */ = {
+		3B2835631BE23E2500DA5F46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B2835321BE23DDA00DA5F46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3B2835361BE23DDA00DA5F46 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B2835371BE23DDA00DA5F46 /* Base */,
+				3B2835641BE23E2500DA5F46 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2835651BE23E2500DA5F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2835661BE23E2500DA5F46 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,9 +544,10 @@
 		};
 		3B2835531BE23DDB00DA5F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D63ECB4C69701C46F03D1B1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-trainning-brasileirao-api/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-trainning-brasileirao-api/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.locaweb.ios-trainning-brasileirao-api";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +556,10 @@
 		};
 		3B2835541BE23DDB00DA5F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C586FB503ADF5E086C4551 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-trainning-brasileirao-api/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-trainning-brasileirao-api/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.locaweb.ios-trainning-brasileirao-api";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +633,7 @@
 				3B2835541BE23DDB00DA5F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B2835551BE23DDB00DA5F46 /* Build configuration list for PBXNativeTarget "ios-trainning-brasileirao-apiTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +642,7 @@
 				3B2835571BE23DDB00DA5F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B2835581BE23DDB00DA5F46 /* Build configuration list for PBXNativeTarget "ios-trainning-brasileirao-apiUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +651,7 @@
 				3B28355A1BE23DDB00DA5F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
